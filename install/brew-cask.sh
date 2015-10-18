@@ -3,25 +3,17 @@ apps=(
     atom
     dash
     dropbox
-    firefox
-    firefox-nightly
     flux
     glimmerblocker
     google-chrome
-    google-chrome-canary
-    google-drive
     iterm2
-    kaleidoscope
     mou
-    opera
-    screenflow
     sourcetree
-    spotify
     sublime-text3
     transmit
     virtualbox
+    vagrant
     vlc
-    webstorm
 )
 
 brew cask install "${apps[@]}"
